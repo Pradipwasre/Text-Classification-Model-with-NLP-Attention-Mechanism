@@ -58,6 +58,7 @@ pip install -r requirements.txt
 The [dataset](https://catalog.data.gov/dataset/consumer-complaint-database) is a collection of complaints about consumer financial products and services that we sent to companies for response. The actual text of the compalint by the consumer is given in the `Consumer complaint narrative` column. The dataset also has a `product` column which contains the product for which the consumer is raising the complaint. We are going to build a model to predict the product given the complaint text. 
 
 **Download the dataset and pest inside the input folder** 
+
 **Train the model and pkl files will be loaded inside output folder**
 
 ### Preprocessing the data
