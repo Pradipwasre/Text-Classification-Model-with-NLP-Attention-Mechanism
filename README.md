@@ -1,6 +1,64 @@
 # Text-Classification-Model-with-NLP-Attention-Mechanism-NLP
 To carry out multiclass text classification on the dataset using an attention mechanism.
 
+
+
+# Text Classification Model with NLP Attention Mechanism
+
+This project implements a multiclass text classification model using an attention mechanism in Natural Language Processing (NLP).
+
+## Project Structure
+
+```bash
+Text-Classification-Model-with-NLP-Attention-Mechanism-NLP/
+│
+├── Input/
+│   ├── .ds_store
+│   ├── complaints.csv           # Dataset (text data for classification)
+│   ├── glove.6b.50d             # GloVe word embeddings (50-dimensional)
+│
+├── Output/
+│   ├── vocabulary.pkl           # Saved vocabulary from training data
+│   ├── tokens.pkl               # Tokenized text data
+│   ├── labels.pkl               # Encoded labels
+│   ├── label_encoder.pkl        # Label encoder used to convert labels to numbers
+│   ├── embeddings.pkl           # Preprocessed word embeddings
+│   ├── attention.pth            # Trained model weights with attention mechanism
+│   ├── .ds_store
+│
+├── Source/
+│   ├── .ds_store
+│   ├── data.py                  # Data loading and processing
+│   ├── model.py                 # Model architecture with attention mechanism
+│   ├── utils.py                 # Utility functions for training and evaluation
+│
+├── attention                    # Script for attention mechanism (details unknown)
+├── config.py                    # Configuration file (e.g., hyperparameters, paths)
+├── engine.py                    # Training and evaluation logic (engine)
+├── predict.py                   # Prediction script for new data
+├── processing.py                # Data preprocessing (tokenization, cleaning, etc.)
+├── readme                       # Documentation for the project (this file)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Text Classification using Attention Mechanism
 This repository contains the code for text classification using attention model and glove pre-trained vectors.
 
