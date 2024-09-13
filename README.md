@@ -40,25 +40,6 @@ Text-Classification-Model-with-NLP-Attention-Mechanism-NLP/
 ├── readme                       # Documentation for the project (this file)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Text Classification using Attention Mechanism
 This repository contains the code for text classification using attention model and glove pre-trained vectors.
 
