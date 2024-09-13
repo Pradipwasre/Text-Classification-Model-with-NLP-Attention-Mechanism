@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 # Text-Classification-Model-with-NLP-Attention-Mechanism-NLP
 To carry out multiclass text classification on the dataset using an attention mechanism.
 
@@ -40,8 +42,11 @@ Text-Classification-Model-with-NLP-Attention-Mechanism-NLP/
 ├── readme                       # Documentation for the project (this file)
 
 
+>>>>>>> 6d86bd78d92f4032fea57c9e0911875adc55ece5
 # Text Classification using Attention Mechanism
 This repository contains the code for text classification using attention model and glove pre-trained vectors.
+
+![alt text](image.png)
 
 ### Installation
 To install the dependencies run:
